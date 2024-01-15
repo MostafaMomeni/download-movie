@@ -1,0 +1,57 @@
+.css-1iyq7zh-MuiDataGrid-columnHeaders{
+    overflow: visible !important;
+}
+.css-axafay-MuiDataGrid-virtualScroller{
+    overflow: visible !important;
+}
+.css-204u17-MuiDataGrid-main{
+    overflow: auto !important;
+}
+.img-admin-movies{
+    width: 70px;
+    height: 40px;
+}
+.red-color-admin-movie{
+    color: red;
+}
+.video-admin-movies{
+    width: 80%;
+    height: auto;
+}
+.img-swal-admin-movies{
+    width: 80%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.input-form-swal-admin-movies{
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+.textarea-form-swal-admin-movies{
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    min-height: 100px;
+    margin-top: 10px;
+    width: 80%;
+}
+.textarea-form-swal-admin-movies::-webkit-scrollbar{
+    display: none;
+}
+.div-form-swal-admin-movies>label{
+    width: 150px;
+}
+.drop-down-menu-swal-admin-movies{
+    text-align: center !important;
+    width: 100%;
+}

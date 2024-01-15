@@ -1,0 +1,32 @@
+.update-movies-img{
+    width: 100%;
+    height: 110px;
+    border-radius: 5px;
+}
+.update-movie-item-parent{
+    position: relative;
+    color: white;
+}
+.footer-update-movie-item{
+    background: rgba(0, 0, 0, .5);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: -48px;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 5px;
+}
+.title-update-movie-item{
+    min-width: 130px;
+}
+.date-update-movie-item{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 14px;
+    float: left;
+}
+.update-movie-item-parent:hover{
+    color: white !important;
+}

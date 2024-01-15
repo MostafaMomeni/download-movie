@@ -1,0 +1,8 @@
+.main-left-parent{
+    display: block;
+}
+@media(max-width:991px){
+    .main-left-parent{
+        display: none;
+    }
+}

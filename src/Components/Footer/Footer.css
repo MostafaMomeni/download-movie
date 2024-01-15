@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--primary-color);
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 300;
+}
+.bottom-footer{
+    width: 100%;
+    background-color: #3f3f49;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+.footer-text{
+    padding: 20px;
+}

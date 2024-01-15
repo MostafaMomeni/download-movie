@@ -1,0 +1,24 @@
+.update-title-main-left{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: rgb(164, 159, 159);
+    box-shadow: 0 3px 20px rgb(88 93 110 / 10%);
+    text-align: center;
+}
+.header-update-main-left{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header-update-main-left>a{
+    color: white;
+    transition: 0.3s;
+}
+.header-update-main-left>a:hover{
+    color: rgba(6,147,227,1) !important;
+}
+.header-update-main-left>div>p{
+    font-size: 16px;
+}

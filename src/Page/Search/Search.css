@@ -1,0 +1,28 @@
+.search-box-parent-search{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.search-box-search{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 15px;
+}
+.input-box-search{
+    background-color: inherit;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.search-icon-search{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.main-search-parent{
+    width: 90%;
+    margin: auto;
+}

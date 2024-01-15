@@ -1,0 +1,33 @@
+.comment-box-parent{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+.header-comment-box{
+    display:flex ; 
+    justify-content: space-between;
+}
+.span-header-comment-box{
+    margin-left: 10px;
+}
+.text-comment-box{
+    padding-right: 25px;
+    word-break: break-all;
+}
+.answer-box-comment-box{
+    background-color: var(--bg-text-color);
+    margin: 30px 30px;
+    padding: 10px;
+}
+.send-answer-box-comment-box{
+    margin: 10px 30px;
+}
+.textarea-send-comment-box{
+    background-color: var(--bg-text-color);
+    color: white;
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    outline: none;
+}

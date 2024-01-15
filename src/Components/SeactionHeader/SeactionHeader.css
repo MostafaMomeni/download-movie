@@ -1,0 +1,14 @@
+.seaction-header-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 5px;
+}
+.link-seaction-header{
+    color: #6898f8  !important;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.link-seaction-header:hover{
+    color: #417ff9  !important;
+}

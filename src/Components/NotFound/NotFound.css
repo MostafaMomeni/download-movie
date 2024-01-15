@@ -1,0 +1,35 @@
+.not-found{
+    background: rgb(252,60,60);
+    background: linear-gradient(83deg, rgba(252,60,60,1) 0%, rgba(153,0,0,1) 54%, rgba(255,0,86,1) 96%);
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+}
+.svg-not-found{
+    width: 250px;
+    height: 250px;
+}
+@media(max-width:900px){
+    .not-found{
+        display: block;
+        width: 90%;
+    }
+}
+@media(max-width:400px){
+    .not-found{
+        display: block;
+        width: 100%;
+    }
+    .svg-not-found{
+        width: 90%;
+        height: auto;
+    }
+}

@@ -1,0 +1,9 @@
+.textarea-send-comment{
+    font-size: 18px;
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    color: white;
+}

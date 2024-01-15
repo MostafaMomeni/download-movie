@@ -1,0 +1,32 @@
+.drop-down-menu{
+    text-align: right !important;
+    width: 100%;
+}
+.drop-down-box{
+    width: 100%;
+    background-color: #1c1c22 !important;
+    color: white;
+    /* padding-right: 10px; */
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.drop-down-box-parent{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    width: 18%;
+    height: 50px;
+    margin: 10px 10px;
+    background-color: #1c1c22 !important;
+
+}
+.dropdown-toggle{
+    width: 100%;
+}
+.drop-down-title{
+    outline: none;
+}
+.swal-drop-down-box{
+    width: 90% !important;
+}

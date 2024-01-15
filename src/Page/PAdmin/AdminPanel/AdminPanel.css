@@ -1,0 +1,20 @@
+#content{
+    width: 20%;
+    height: 100%;
+}
+.main-admin{
+    width: 80%;
+    margin-right: 20%;
+}
+@media(max-width:1200px){
+    .main-admin{
+        width: 70%;
+        margin-right: 30%;
+    }
+}
+@media(max-width:1000px){
+    .main-admin{
+        width: 100%;
+        margin-right: 0px;
+    }
+}

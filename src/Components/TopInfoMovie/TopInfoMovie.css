@@ -1,0 +1,88 @@
+.top-info-movie-info-parent{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.img-top-info-movie-info>img{
+    width: 210px;
+    height: 290px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.left-item-top-info-movie-info{
+    width: 100%;
+}
+.description-top-info-movie-info{
+    margin-left: 10px;
+    border-left: 1px solid rgb(159, 159, 159);
+    padding-left: 10px;
+}
+.likes-top-info-movie-info{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.likes-icon-top-info-movie-info{
+    font-size: 28px;
+    margin-left: 5px;
+}
+.likes-top-info-movie-info-parent{
+    border-bottom: 1px solid rgb(103, 95, 95);
+}
+.builders-top-info-movie-info{
+    margin-top: 20px;
+}
+.button-top-info-movie-info{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    transition: 0.3s;
+}
+.button-top-info-movie-info:hover{
+    background-color: rgb(137, 129, 129);
+    border-radius: 40% 5px;
+}
+.active-mines-btn{
+    background-color: rgb(245, 52, 52);
+}
+.active-plus-btn{
+    background-color: rgb(29, 181, 29);
+}
+.active-mines-btn:hover{
+    background-color: rgb(249, 70, 70);
+}
+.active-plus-btn:hover{
+    background-color: rgb(54, 217, 54);
+}
+@media(max-width:991px){
+    .top-info-movie-info-parent{
+        display: block;
+        text-align: center;
+    }
+    .left-item-top-info-movie-info{
+        margin-top: 20px;
+    }
+    .img-top-info-movie-info>img{
+        width: 200px;
+        height: 210px;
+    }
+}
+@media(max-width:400px){
+    .top-info-movie-info-parent{
+        display: block;
+        text-align: center;
+    }
+    .left-item-top-info-movie-info{
+        margin-top: 20px;
+    }
+    .img-top-info-movie-info>img{
+        width: 200px;
+        height: auto;
+        margin: 0;
+    }
+}
